@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F6F6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 42px;
+    width: 80%;
+}
+.menu .menu-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu .menu-left .logo {
+    margin-right: 16px;
+   
+}
+
+.menu .menu-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu .menu-right .signin {
+    border-radius: 100px;
+    background: #2B2730;   
+    padding: 16px 32px;   
+    gap: 10px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* Dobra1 */
+
+.dobra1 {
+    display: flex;
+    width: 80%;
+    margin-top: 117px;
+    justify-content: space-between;
+}
+
+.dobra1 p {
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.dobra1 p span {
+    color: #FFB84C;
+}
+
+.dobra1 img {
+    max-width: 204px;
+    max-height: 204px;
+    flex-shrink: 0;
+}
+
+/* Dobra2*/
+
+.dobra2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 116px;
+    width: 100%;
+}
+
+.dobra2 .plataform {
+    max-width: 90%;
+}
+
+.dobra2 .fundo {
+    display: flex;
+    background: #2B2730;
+    width: 100%;
+    justify-content: center;
+    margin-top: -340px;
+    z-index: -1;
+    padding-bottom: 106px;
+}
+
+.dobra2 .fundo .container {    
+    width: 80%;    
+    margin-top: 450px;
+}
+
+.dobra2 .fundo .container .chamada p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -1.6px;
+}
+
+.dobra2 .fundo .container .chamada p span {
+    color: #FFB84C;
+}
+
+.dobra2 .fundo .container .fotos {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 116px;
+    justify-content: space-between;
+}
+
+.dobra2 .fundo .container .fotos img {
+    max-width: 392px;
+    max-height: 522px;
+}
+
+.dobra2 .fundo .container .numeros {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    display: flex;
+    margin-top: 116px;
+    justify-content: space-between;
+
+}
+
+.dobra2 .fundo .container .numeros .esquerda {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.dobra2 .fundo .container .numeros .esquerda .dados {
+    width: 213px;
+}
+
+.dobra2 .fundo .container .numeros .esquerda .dados span {
+    color: #FFB84C;
+    font-size: 64px;    
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.dobra2 .fundo .container .numeros .direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 295px;
+    gap: 16px;
+}
+
+/* Dobra 3*/
+
+.dobra3 {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    font-family: Poppins;
+    color: #2B2730;
+    gap: 24px;
+    width: 80%;
+    margin-top: 116px;
+}
+
+.dobra3 .creator {
+    height: 276px;
+    max-width: 604px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px; 
+}
+
+.dobra3 .creator h2 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.4px;
+}
+
+.dobra3 .creator p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+.dobra3 .creator a {
+    max-width: 182px;
+    max-height: 52px;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #2B2730;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+.dobra3 .motivos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 606px;
+    gap: 32px;
+}
+
+.dobra3 .motivos .razao {
+    display: flex;
+    flex-direction: column;
+    width: 286px;
+    gap: 16px;
+}
+
+.dobra3 .motivos .razao img {
+    width: 128px;
+    height: 128px;    
+}
+
+.dobra3 .motivos .razao h2 {
+    font-size: 24px;    
+}
+
+.dobra3 .motivos .razao p {
+    font-size: 16px;
+}
+
+/* Dobra 4*/
+
+.dobra4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    margin-top: 116px;    
+    width: 80%;
+    padding: 116px 0px; 
+    gap: 24px;
+    border-radius: 32px;
+    background: #2B2730;
+    color: #FFF; 
+}
+
+.dobra4 h2 {      
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.dobra4 p {
+    font-size: 16px;
+}
+
+.dobra4 a {
+    padding: 16px 32px;
+    border-radius: 32px;
+    background: #FFB84C;
+}
+
+/* Footer*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    width: 80%;
+    padding: 116px 0;    
+}
+
+footer .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+
+}
+
+footer .links {
+    display: flex;
+    flex-direction: row; 
+    gap: 32px;
+}
+
+footer .links .info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: Poppins;
+    width: 180px;   
+}
+
+footer .links .info h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+footer .links .info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
